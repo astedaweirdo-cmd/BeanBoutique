@@ -1059,3 +1059,301 @@ section nav .icon .cart-link i {
     font-size: 11px;
     font-weight: bold;
 }
+
+
+
+
+@media (max-width: 768px) {
+
+   
+
+    section nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 115px;
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 5px 15px;
+        z-index: 1000;
+    }
+
+    section nav .logo {
+        height: 55px;
+        width: 55px;
+    }
+
+    section nav .logo img {
+        width: 55px;
+        height: 55px;
+        object-fit: contain;
+    }
+
+    
+    section nav .icon {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-left: auto;
+    }
+
+    section nav .icon i {
+        font-size: 18px;
+    }
+
+ 
+    section nav ul {
+        order: 3;
+
+        width: 100%;
+        height: 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        gap: 22px;
+        margin: 0;
+        padding: 0 5px;
+
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        white-space: nowrap;
+
+        scrollbar-width: none;
+    }
+
+    section nav ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    section nav ul li {
+        display: block;
+        flex: 0 0 auto;
+        margin: 0;
+    }
+
+    section nav ul li a {
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+
+
+
+    section#Home {
+        height: auto;
+        min-height: 100svh;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+        min-height: 100svh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 140px 20px 50px;
+        gap: 25px;
+
+        overflow: hidden;
+    }
+
+    .men_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .welcome {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .men_text h1 {
+        font-size: 42px;
+        line-height: 1.1;
+        margin: 10px 0;
+    }
+
+    .men_text h1 span {
+        font-size: 58px;
+        display: block;
+    }
+
+    .men_text p {
+        width: 100%;
+        max-width: 350px;
+
+        margin: 15px auto;
+
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .main_btn {
+        margin-top: 15px;
+    }
+
+    .main_image {
+        width: 100%;
+        height: 280px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_image .circle {
+        width: 240px;
+        height: 240px;
+    }
+
+    .main_image img {
+        width: 245px;
+        height: 245px;
+        object-fit: cover;
+    }
+
+    .coffee_tag {
+        display: none;
+    }
+
+
+
+    .about {
+        width: 100%;
+        min-height: auto;
+
+        padding: 100px 20px 60px;
+
+        display: block;
+    }
+
+    .about_main {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 35px;
+    }
+
+    .about .image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .about .image img {
+        width: 100%;
+        height: 300px;
+
+        object-fit: cover;
+    }
+
+    .about_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about_text h1 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .about_text h2 {
+        font-size: 21px;
+        margin: 10px 0;
+    }
+
+    .about_text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+
+    .about_features {
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .about_feature {
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    section nav {
+        height: 105px;
+    }
+
+    section nav ul {
+        gap: 18px;
+    }
+
+    section nav ul li a {
+        font-size: 12px;
+    }
+
+    .main {
+        padding-top: 125px;
+    }
+
+    .men_text h1 {
+        font-size: 36px;
+    }
+
+    .men_text h1 span {
+        font-size: 50px;
+    }
+
+    .men_text p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .main_image {
+        height: 240px;
+    }
+
+    .main_image .circle {
+        width: 210px;
+        height: 210px;
+    }
+
+    .main_image img {
+        width: 215px;
+        height: 215px;
+    }
+
+    .about {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about_text h1 {
+        font-size: 34px;
+    }
+
+    .about_features {
+        grid-template-columns: 1fr;
+    }
+}
