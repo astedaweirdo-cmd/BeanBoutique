@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bean Boutique Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="offers.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"> 
+</head> 
+
+<body> 
+    
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <img src="images/coffee_cup-removebg-preview.png" alt="Logo">
+            </div>
+
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Brewing">Brewing Machines</a></li>
+                <li><a href="#Events">Events & Workshops</a></li>
+                <li><a href="#Offers">Special Offers</a></li>
+            </ul>
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"id="search-icon"></i>
+                <a href="cart.html" class="cart-link">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-count">0</span></a>
+            </div>
+
+
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="Search our products here...">
+                <label for="search-box"></label>
+            </div>
+        </nav>
+
+        <div class="main">
+
+            <div class="men_text">
+                <div class="welcome"> WELCOME TO 
+                </div>
+                <h1> Bean <span>Boutique</span> Cafe </h1> 
+                    <p> Where every cup is crafted with care, and every visit feels like home. 
+                    </p> 
+
+            <div class="main_btn"> 
+                    <a href="#Menu">Explore Our Menu</a> 
+                    <i class="fa-solid fa-angles-right"></i> 
+                </div>
+             </div> 
+
+                <div class="main_image"> 
+                <div class="image_circle">
+            </div> 
+                <img src="images/main pic.jpg" alt="Coffee at Bean Boutique"> 
+                <div class="coffee_tag"> 
+            <i class="fa-solid fa-mug-hot"></i> 
+            <span>Freshly Brewed</span> 
+            </div> 
+        </div>
+    </div>
+</section>
+
+
+    <div class="about" id="About">
+    <div class="about_main">
+
+        <div class="image">
+            <img src="images/cafe shop.jpg" alt="cafe shop">
+        </div>
+
+        <div class="about_text">
+
+            <h1><span>About </span>Us</h1>
+
+            <h2>More than just a coffee.</h2>
+
+            <p>
+                At Bean Boutique, we believe that a great café is more than just a place to grab a cup of coffee. It is a place to slow down, connect, create memories, and enjoy the little moments.
+            </p>
+
+            <p>
+                From carefully brewed coffee to comforting treats, everything we serve is made with quality and care. Whether you're meeting friends, studying, or simply enjoying a quiet afternoon, our doors are always open.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="about_features">
+
+        <div class="feature">
+            <i class="fa-solid fa-mug-hot"></i>
+            <div>
+                <h3>Fresh Coffee</h3>
+                <span>Carefully brewed</span>
+            </div>
+        </div>
+
+        <div class="feature">
+            <i class="fa-solid fa-heart"></i>
+            <div>
+                <h3>Made With Care</h3>
+                <span>Every cup, every time</span>
+            </div>
+        </div>
+    </div>
+
+    <a href="#Menu" class="about_btn">
+        Discover Our Menu
+        <i class="fa-solid fa-arrow-right"></i>
+    </a>
+</div>
+
+
+
+    <div class="menu" id="Menu">
+        <h1>Our <span>Menu</span></h1>
+
+        <div class="menu_box">
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="images/cappuccino.jpg" alt="cappuccino">
+                </div>
+
+                <div class="menu_info">
+                    <h2>Cappuccino</h2>           
+                    <h3>$6</h3>
+                    <div class="menu_icon">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star-half"></i>
+                    </div>
+                <a href="#"class="menu_btn"onclick="addToCart('Cappuccino', 6, 'images/cappuccino.jpg'); 
+                return false;">
+                Add to cart
+            </a>
+                </div>
+            </div>
+        
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="images/americano.jpg" alt="Americano">
+            </div>
+
+            <div class="menu_info">
+                <h2>Americano</h2>
+                <h3>$5</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half"></i>
+                </div>
+
+                <a href="#"class="menu_btn"onclick="addToCart('Americano', 6, 'images/americano.jpg'); 
+                return false;">
+                Add to cart
+            </a>
+                </div>
+            </div>
+
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="images/matcha latte.jpg" alt="Matcha Latte">
+            </div>
+
+            <div class="menu_info">
+                <h2>Matcha Latte</h2>
+                <h3>$6</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                <a href="#"class="menu_btn"onclick="addToCart('Matcha Latte', 6, 'images/matcha latte.jpg'); 
+                return false;">
+                Add to cart
+            </a>
+                </div>
+        </div>
+
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="images/latte.jpg" alt="Latte">
+            </div>
+
+            <div class="menu_info">
+                <h2>Latte</h2>
+                <h3>$6</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half"></i>
+                </div>
+
+                <a href="#" class="menu_btn" onclick="addToCart('Latte', 6, 'images/latte.jpg'); 
+                return false;">
+                Add to cart
+            </a>
+                </div>
+        </div>
+
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="images/macchiato.jpg" alt="Macchiato">
+            </div>
+
+            <div class="menu_info">
+                <h2>Macchiato</h2>
+                <h3>$6</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half"></i>
+                </div>
+
+                <a href="#" class="menu_btn" onclick="addToCart('Macchiato', 6, 'images/macchiato.jpg'); 
+                return false;">
+                Add to cart
+            </a>
+                </div>
+        </div>
+
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="images/mint chocolate.jpg" alt="Mint Chocolate">
+            </div>
+
+            <div class="menu_info">
+                <h2>Mint Chocolate</h2>
+                <h3>$6</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                <a href="#" class="menu_btn" onclick="addToCart('Mint Chocolate', 6, 'images/mint chocolate.jpg'); 
+                return false;">
+                Add to cart
+            </a>
+                </div>
+        </div>
+
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="images/mocha.jpg" alt="Mocha">
+            </div>
+
+            <div class="menu_info">
+                <h2>Mocha</h2>
+                <h3>$6</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half"></i>
+                </div>
+
+                <a href="#" class="menu_btn" onclick="addToCart('Mocha', 6, 'images/mocha.jpg'); 
+                return false;">
+                Add to cart
+            </a>
+                </div>
+        </div>
+
+
+        <div class="menu_card">
+            <div class="menu_image">
+                <img src="images/white mocha.jpg" alt="White Mocha">
+            </div>
+
+            <div class="menu_info">
+                <h2>White Mocha</h2>
+                <h3>$6</h3>
+
+                <div class="menu_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half"></i>
+                </div>
+
+                <a href="#" class="menu_btn" onclick="addToCart('White Mocha', 6, 'images/white mocha.jpg'); 
+                return false;">
+                Add to cart
+            </a>
+                </div>
+        </div>
+    </div>
+    </div>
+
+
+
+        <div class="brewing" id="Brewing">
+    <h1>Brewing <span>Machines</span></h1>
+
+    <div class="brewing_box">
+        <div class="brewing_card">
+
+            <div class="brewing_image">
+                <img src="images/espresso machine.jpg" alt="Espresso Machine">
+            </div>
+
+            <div class="brewing_info">
+                <h2>Espresso Machine</h2>
+                <h3>$299</h3>
+
+                <div class="brewing_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half"></i>
+                </div>
+
+         <a href="#"
+   class="brewing_btn"
+   onclick="addToCart('Espresso Machine', 299, 'images/espresso machine.jpg'); return false;">
+    Add to cart
+</a>
+                </div>
+            </div>
+
+
+        <div class="brewing_card">
+
+            <div class="brewing_image">
+                <img src="images/coffee grinder.jpg" alt="Coffee Grinder">
+            </div>
+
+            <div class="brewing_info">
+                <h2>Coffee Grinder</h2>
+                <h3>$89</h3>
+
+                <div class="brewing_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                <a href="#"
+   class="brewing_btn"
+   onclick="addToCart('Coffee Grinder', 89, 'images/coffee grinder.jpg'); return false;">
+    Add to cart
+</a>
+                </div>
+            </div>
+
+
+        <div class="brewing_card">
+
+            <div class="brewing_image">
+                <img src="images/french press.jpg" alt="French Press">
+            </div>
+
+            <div class="brewing_info">
+                <h2>French Press</h2>
+                <h3>$35</h3>
+
+                <div class="brewing_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half"></i>
+                </div>
+
+             <a href="#"
+   class="brewing_btn"
+   onclick="addToCart('French Press', 35, 'images/french press.jpg'); return false;">
+    Add to cart
+</a>
+                </div>
+            </div>
+
+
+        <div class="brewing_card">
+
+            <div class="brewing_image">
+                <img src="images/pour over.jpg" alt="Pour Over Dripper">
+            </div>
+
+            <div class="brewing_info">
+                <h2>Pour-Over Dripper</h2>
+                <h3>$28</h3>
+
+                <div class="brewing_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                <a href="#"
+   class="brewing_btn"
+   onclick="addToCart('Pour-Over Dripper', 28, 'images/pour over.jpg'); return false;">
+    Add to cart
+</a>
+                </div>
+            </div>
+
+
+        <div class="brewing_card">
+
+            <div class="brewing_image">
+                <img src="images/aeropress.jpg" alt="AeroPress">
+            </div>
+
+            <div class="brewing_info">
+                <h2>AeroPress</h2>
+                <h3>$40</h3>
+
+                <div class="brewing_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half"></i>
+                </div>
+                <a href="#"
+   class="brewing_btn"
+   onclick="addToCart('AeroPress', 40, 'images/aeropress.jpg'); return false;">
+    Add to cart
+</a>
+                </div>
+
+        </div>
+
+
+        <div class="brewing_card">
+
+            <div class="brewing_image">
+                <img src="images/moka pot.jpg" alt="Moka Pot">
+            </div>
+
+            <div class="brewing_info">
+                <h2>Moka Pot</h2>
+                <h3>$45</h3>
+
+                <div class="brewing_icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                <a href="#" class="brewing_btn" onclick="addToCart('Moka Pot', 45, 'images/moka pot.jpg'); 
+                return false;">
+                Add to cart
+            </a>
+                </div>
+            </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="events" id="Events">
+
+    <h1>Events & <span class="title-highlight">Workshops</span></h1>
+    <p class="events_intro">
+        Join us for inspiring coffee experiences, creative workshops,
+        and memorable moments at Bean Boutique.
+    </p>
+
+
+    <div class="events_box">
+
+        <!-- Event 1 -->
+        <div class="event_card">
+
+            <div class="event_image">
+                <img src="images/coffee brewing.jpg" alt="Coffee Brewing Workshop">
+            </div>
+
+            <div class="event_info">
+
+                <span class="event_date">SEPTEMBER 20, 2026</span>
+
+                <h2>Coffee Brewing Workshop</h2>
+
+                <p>
+                    Learn the basics of coffee brewing and discover how
+                    different brewing methods create different flavors.
+                </p>
+
+                <div class="event_details">
+                    <span>
+                        <i class="fa-regular fa-clock"></i>
+                        2:00 PM - 4:00 PM
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Bean Boutique
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Event 2 -->
+        <div class="event_card">
+
+            <div class="event_image">
+                <img src="images/live music night.jpg" alt="Live Music Night">
+            </div>
+
+            <div class="event_info">
+
+                <span class="event_date">OCTOBER 5, 2026</span>
+
+                <h2>Live Music Night Event</h2>
+
+                <p>
+                    Take a break and enjoy your evening with your favorite coffee and live music!
+                </p>
+
+                <div class="event_details">
+                    <span>
+                        <i class="fa-regular fa-clock"></i>
+                        6:00 PM- 10:00 PM
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Bean Boutique
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Event 3 -->
+        <div class="event_card">
+
+            <div class="event_image">
+                <img src="images/latte art.jpg" alt="Latte Art Workshop">
+            </div>
+
+            <div class="event_info">
+
+                <span class="event_date">OCTOBER 18, 2026</span>
+
+                <h2>Latte Art Workshop</h2>
+
+                <p>
+                    Discover the techniques behind beautiful latte art
+                    and practice creating your own café-style designs.
+                </p>
+
+                <div class="event_details">
+                    <span>
+                        <i class="fa-regular fa-clock"></i>
+                        2:00 PM - 4:00 PM
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Bean Boutique
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+        <!-- Registration -->
+
+    <div class="registration">
+
+        <div class="registration_text">
+
+            <span>JOIN US</span>
+
+            <h2>Register for an Event</h2>
+
+            <p>
+                Interested in joining one of our upcoming events?
+                Fill in your details below and send us your registration.
+            </p>
+
+        </div>
+
+
+        <form
+            class="registration_form"
+            action="mailto:beanboutiquecafe@gmail.com"
+            method="post"
+            enctype="text/plain">
+
+            <div class="form_row">
+
+                <div class="form_group">
+
+                    <label for="firstName">First Name</label>
+
+                    <input
+                        type="text"
+                        id="firstName"
+                        name="First Name"
+                        placeholder="Enter your first name"
+                        required>
+
+                </div>
+
+
+                <div class="form_group">
+
+                    <label for="lastName">Last Name</label>
+
+                    <input
+                        type="text"
+                        id="lastName"
+                        name="Last Name"
+                        placeholder="Enter your last name"
+                        required>
+
+                </div>
+
+            </div>
+
+
+            <div class="form_group">
+
+                <label for="email">Email Address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="Email Address"
+                    placeholder="Enter your email address"
+                    required>
+
+            </div>
+
+
+            <div class="form_group">
+
+                <label for="event">Choose an Event</label>
+
+                <select id="event" name="Event" required>
+
+                    <option value="">Select an event</option>
+
+                    <option value="Coffee Brewing Workshop">
+                        Coffee Brewing Workshop
+                    </option>
+
+                    <option value="Coffee Tasting Evening">
+                        Coffee Tasting Evening
+                    </option>
+
+                    <option value="Latte Art Workshop">
+                        Latte Art Workshop
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <button type="submit" class="register_btn">
+                Register Now
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+
+<!-- Special Offers -->
+<div class="offers" id="Offers">
+
+    <div class="offers-heading">
+
+        <span>DEALS & DISCOUNTS</span>
+
+        <h1>Special <span>Offers</span></h1>
+
+        <p>
+            Enjoy exclusive deals, seasonal promotions, and special
+            rewards at Bean Boutique Cafe.
+        </p>
+
+    </div>
+
+    <div class="offers-box">
+
+        <!-- Offer 1 -->
+        <div class="offer-card">
+
+            <div class="offer-image">
+                <img src="images/cappuccino.jpg"
+                     alt="Cappuccino Special Offer">
+            </div>
+
+            <div class="offer-content">
+
+                <span class="offer-label">POPULAR</span>
+
+                <h2>Coffee & Treat Combo</h2>
+
+                <p>
+                    Enjoy any regular coffee together with a delicious
+                    café treat at a special combo price.
+                </p>
+
+                <div class="offer-price">
+                    <span class="old-price">$9</span>
+                    <span class="new-price">$7</span>
+                </div>
+
+                <p class="offer-small">
+                    Save $2 on your order.
+                </p>
+
+                <a href="#Menu" class="offer-btn">
+                    Shop Now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Offer 2 -->
+        <div class="offer-card">
+
+            <div class="offer-image">
+                <img src="images/coffee grinder.jpg"
+                     alt="Coffee Grinder Promotion">
+            </div>
+
+            <div class="offer-content">
+
+                <span class="offer-label">BREW AT HOME</span>
+
+                <h2>20% Off Brewing Equipment</h2>
+
+                <p>
+                    Upgrade your home coffee setup and enjoy selected
+                    brewing equipment at a discounted price.
+                </p>
+
+                <div class="offer-price">
+                    <span class="new-price">20% OFF</span>
+                </div>
+
+                <p class="offer-small">
+                    Available on selected brewing machines.
+                </p>
+
+                <a href="#Brewing" class="offer-btn">
+                    Shop Now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Offer 3 -->
+        <div class="offer-card">
+
+            <div class="offer-image">
+                <img src="images/mocha.jpg"
+                     alt="Coffee Promotion">
+            </div>
+
+            <div class="offer-content">
+
+                <span class="offer-label">WEEKDAY DEAL</span>
+
+                <h2>Afternoon Coffee Deal</h2>
+
+                <p>
+                    Treat yourself to a relaxing afternoon coffee with
+                    our special weekday promotion.
+                </p>
+
+                <div class="offer-price">
+                    <span class="new-price">$5</span>
+                </div>
+
+                <p class="offer-small">
+                    Selected drinks available Monday to Friday.
+                </p>
+
+                <a href="#Menu" class="offer-btn">
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Promotion Banner -->
+    <section class="promotion-banner">
+
+        <div>
+
+            <span>LIMITED TIME</span>
+
+            <h2>Something Special Is Brewing</h2>
+
+            <p>
+                Check back regularly for new offers and seasonal
+                promotions at Bean Boutique Cafe.
+            </p>
+
+        </div>
+
+        <a href="#Menu">
+            Explore Our Menu
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </section>
+
+</div>
+
+
+
+<script>
+    const searchIcon = document.getElementById("search-icon");
+    const searchForm = document.querySelector(".search-form");
+    const searchBox = document.getElementById("search-box");
+
+    // Open search box
+    searchIcon.addEventListener("click", function () {
+        searchForm.classList.toggle("active");
+        searchBox.focus();
+    });
+
+
+    // Search when user presses Enter
+    searchBox.addEventListener("keydown", function (event) {
+
+        if (event.key === "Enter") {
+
+            const searchTerm = searchBox.value.toLowerCase().trim();
+
+            const menuCards = document.querySelectorAll(".menu_card");
+            const brewingCards = document.querySelectorAll(".brewing_card");
+
+            let foundMenu = false;
+            let foundBrewing = false;
+
+
+            // Search Menu products
+            menuCards.forEach(function (card) {
+
+                const productName = card.querySelector("h2").textContent.toLowerCase();
+
+                if (productName.includes(searchTerm)) {
+                    card.style.display = "";
+                    foundMenu = true;
+                } else {
+                    card.style.display = "none";
+                }
+
+            });
+
+
+            // Search Brewing Machine products
+            brewingCards.forEach(function (card) {
+
+                const productName = card.querySelector("h2").textContent.toLowerCase();
+
+                if (productName.includes(searchTerm)) {
+                    card.style.display = "";
+                    foundBrewing = true;
+                } else {
+                    card.style.display = "none";
+                }
+
+            });
+
+
+            // Take user to the correct section
+            if (foundMenu) {
+
+                document.getElementById("Menu").scrollIntoView({
+                    behavior: "smooth"
+                });
+
+            } else if (foundBrewing) {
+
+                document.getElementById("Brewing").scrollIntoView({
+                    behavior: "smooth"
+                });
+
+            } else {
+
+                alert("Product not found.");
+
+                // Bring everything back if nothing was found
+                menuCards.forEach(function (card) {
+                    card.style.display = "";
+                });
+
+                brewingCards.forEach(function (card) {
+                    card.style.display = "";
+                });
+
+            }
+
+        }
+
+    });
+
+
+    searchBox.addEventListener("input", function () {
+
+        if (searchBox.value.trim() === "") {
+
+            const menuCards = document.querySelectorAll(".menu_card");
+            const brewingCards = document.querySelectorAll(".brewing_card");
+
+            menuCards.forEach(function (card) {
+                card.style.display = "";
+            });
+
+            brewingCards.forEach(function (card) {
+                card.style.display = "";
+            });
+
+        }
+
+    });
+</script>
+    <script src="cart.js"></script>
+
+        <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+    <div class="commonninja_component pid-75f0b04b-df1c-428a-8b1b-1ef9e7a8c6b2"></div>
+
+        
+
+
+</body>
+</html> 
