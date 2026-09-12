@@ -19,7 +19,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* ================= NAVIGATION ================= */
+
 
 section nav {
     position: fixed;
@@ -123,7 +123,8 @@ section nav .icon i:hover {
     color: #765f50;
 }
 
-/* ================= HOME ================= */
+
+
 
 section {
     width: 100%;
@@ -171,19 +172,15 @@ section .main .welcome::after {
 section .main .men_text h1 {
     color: rgb(103, 58, 28);
     font-family: 'MV Boli', cursive;
-
     font-size: 78px;
     line-height: 0.95;
-
     margin-bottom: 25px;
 }
 
 section .main .men_text h1 span {
     display: block;
-
     color: rgb(189, 127, 154);
     font-family: 'MV Boli', cursive;
-
     font-size: 105px;
     line-height: 1;
 }
@@ -191,13 +188,10 @@ section .main .men_text h1 span {
 
 section .main .men_text p {
     width: 520px;
-
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     line-height: 30px;
-
     color: #765f50;
-
     margin-bottom: 30px;
 }
 
@@ -206,22 +200,16 @@ section .main_btn {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-
     background: rgb(103, 58, 28);
-
     padding: 14px 22px;
-
     border-radius: 4px;
-
     cursor: pointer;
-
     transition: 0.3s;
 }
 
 section .main_btn a {
     color: #fffaf5;
     text-decoration: none;
-
     font-size: 15px;
     font-weight: 500;
 }
@@ -244,9 +232,7 @@ section .main_btn:hover i {
 section .main .main_image {
     width: 45%;
     height: 600px;
-
     position: relative;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,16 +242,11 @@ section .main .main_image {
 section .main .image_circle {
     width: 500px;
     height: 500px;
-
     background: #f3e1d0;
-
     border-radius: 50%;
-
     position: absolute;
-
     right: 30px;
     top: 50px;
-
     z-index: 0;
 }
 
@@ -304,27 +285,24 @@ section .main .main_image img {
     font-size: 18px;
 }
 
-/* ================= ABOUT ================= */
+
+
+
 
 .about {
     width: 100%;
     min-height: 100vh;
-
     padding: 110px 7%;
-
     background: #fffaf5;
-
     display: flex;
     align-items: center;
 }
 
 .about .about_main {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     gap: 80px;
 }
 
@@ -336,33 +314,23 @@ section .main .main_image img {
 
 .about .about_main .image::before {
     content: '';
-
     width: 100%;
     height: 100%;
-
     border: 2px solid rgb(189, 127, 154);
     border-radius: 10px;
-
     position: absolute;
-
     top: 20px;
     left: 20px;
-
     z-index: 0;
 }
 
 .about .about_main .image img {
     width: 100%;
     height: 500px;
-
     object-fit: cover;
-
     border-radius: 10px;
-
     position: relative;
-
     z-index: 1;
-
     box-shadow: 0 15px 35px rgba(103, 58, 28, 0.15);
 }
 
@@ -373,151 +341,109 @@ section .main .main_image img {
 
 .about_label {
     color: rgb(189, 127, 154);
-
     font-size: 14px;
     font-weight: 600;
-
     letter-spacing: 4px;
-
     margin-bottom: 12px;
 }
 
 .about_label::before {
     content: '';
-
     display: inline-block;
-
     width: 35px;
     height: 2px;
-
     background: rgb(189, 127, 154);
-
     margin-right: 10px;
-
     vertical-align: middle;
 }
 
 
 .about .about_main .about_text h1 {
     font-size: 58px;
-
     line-height: 1;
-
     margin-bottom: 20px;
-
     color: rgb(103, 58, 28);
-
     font-family: 'Poppins', sans-serif;
 }
 
 .about .about_main .about_text h1 span {
     color: rgb(189, 127, 154);
-
     font-family: 'Poppins', sans-serif;
 }
 
 
 .about .about_main .about_text h2 {
     font-size: 25px;
-
     color: rgb(103, 58, 28);
-
     font-weight: 600;
-
     margin-bottom: 20px;
 }
 
 
 .about .about_main .about_text p {
     width: 100%;
-
     color: #765f50;
-
     font-size: 15px;
-
     line-height: 27px;
-
     margin-bottom: 15px;
 }
 
 
 .about_features {
     display: flex;
-
     gap: 40px;
-
     margin: 25px 0;
 }
 
 .feature {
     display: flex;
-
     align-items: center;
-
     gap: 12px;
 }
 
 .feature i {
     width: 42px;
     height: 42px;
-
     border-radius: 50%;
-
     background: #f3e1d0;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     color: rgb(103, 58, 28);
 }
 
 .feature h3 {
     font-size: 14px;
-
     color: rgb(103, 58, 28);
-
     margin-bottom: 2px;
 }
 
 .feature span {
     font-size: 11px;
-
     color: #987d6c;
 }
 
 
 .about .about_btn {
     display: inline-flex;
-
     align-items: center;
-
     gap: 10px;
-
     background: rgb(103, 58, 28);
-
     padding: 13px 20px;
-
     color: #fffaf5;
-
     text-decoration: none;
-
     border-radius: 4px;
-
     font-size: 14px;
-
     transition: 0.3s;
 }
 
 .about .about_btn i {
     color: rgb(189, 127, 154);
-
     transition: 0.3s;
 }
 
 .about .about_btn:hover {
     transform: translateY(-3px);
-
     box-shadow: 0 8px 20px rgba(103, 58, 28, 0.2);
 }
 
@@ -525,7 +451,9 @@ section .main .main_image img {
     transform: translateX(5px);
 }
 
-/* ================= MENU ================= */
+
+
+
 .menu {
     width: 100%;
     min-height: 100vh;
@@ -561,7 +489,6 @@ section .main .main_image img {
 .menu .menu_box {
     width: 95%;
     margin: 0 auto;
-
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -574,12 +501,9 @@ section .main .main_image img {
     height: 480px;
     padding-top: 10px;
     margin-bottom: 20px;
-
     background: white;
     border-radius: 10px;
-
     box-shadow: 0 5px 15px rgba(103, 58, 28, 0.2);
-
     position: relative;
 }
 
@@ -605,18 +529,14 @@ section .main .main_image img {
 .menu .menu_box .menu_card .small_card {
     width: 45px;
     height: 45px;
-
     position: absolute;
     top: 20px;
     right: 20px;
-
     border-radius: 50%;
     background: white;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
@@ -651,10 +571,8 @@ section .main .main_image img {
     display: inline-block;
     background: rgb(103, 58, 28);
     color: white;
-
     padding: 8px 18px;
     text-decoration: none;
-
     border-radius: 5px;
     transition: 0.3s;
 }
@@ -664,7 +582,8 @@ section .main .main_image img {
 }
 
 
-/* Brewing Machines */
+
+
 
 .brewing {
     width: 100%;
@@ -695,7 +614,7 @@ section .main .main_image img {
     background: rgb(189, 127, 154);
     display: block;
     position: relative;
-    bottom: 10px;
+    bottom: 2px;
 }
 
 .brewing .brewing_box {
@@ -795,7 +714,8 @@ section .main .main_image img {
 
 
 
-/* Events & Workshops */
+
+
 
 .events {
     width: 100%;
@@ -842,7 +762,7 @@ section .main .main_image img {
 }
 
 
-/* Event Cards */
+
 
 .events_box {
     width: 100%;
@@ -921,7 +841,9 @@ section .main .main_image img {
 }
 
 
-/* Registration */
+
+
+
 
 .registration {
     width: 90%;
@@ -960,7 +882,7 @@ section .main .main_image img {
 }
 
 
-/* Form */
+
 
 .registration_form {
     width: 55%;
@@ -1027,6 +949,9 @@ section .main .main_image img {
     color: white;
 }
 
+
+
+
 section nav .icon .cart-link {
     position: relative;
     text-decoration: none;
@@ -1040,22 +965,16 @@ section nav .icon .cart-link i {
 
 #cart-count {
     position: absolute;
-
     top: -12px;
     right: -10px;
-
     width: 18px;
     height: 18px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     background: rgb(189, 127, 154);
     color: white;
-
     border-radius: 50%;
-
     font-size: 11px;
     font-weight: bold;
 }
@@ -1096,14 +1015,11 @@ section nav .icon .cart-link i {
         order: 3;
         width: 100%;
         height: 38px;
-
         display: flex;
         justify-content: flex-start;
         align-items: center;
-
         gap: 20px;
         padding: 0 5px;
-
         overflow-x: auto;
         white-space: nowrap;
         scrollbar-width: none;
@@ -1133,20 +1049,20 @@ section nav .icon .cart-link i {
         width: 100%;
         height: auto;
         min-height: 100svh;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        padding: 120px 18px 45px;
+        padding: 180px 18px 45px;
         gap: 18px;
     }
 
-    .men_text {
-        width: 100%;
-        text-align: center;
-    }
+    section#Home .main .men_text {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
 
 
     .welcome {
@@ -1176,9 +1092,7 @@ section nav .icon .cart-link i {
     .men_text p {
         width: 100%;
         max-width: 350px;
-
         margin: 14px auto;
-
         font-size: 14px;
         line-height: 22px;
         text-align: center;
@@ -1189,13 +1103,9 @@ section nav .icon .cart-link i {
         padding: 10px 18px;
     }
 
-
-
-
     .main_image {
         width: 100%;
         height: 260px;
-
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1218,116 +1128,67 @@ section nav .icon .cart-link i {
 
 
 
+    
+
     .about {
         width: 100%;
         min-height: auto;
-
         padding: 80px 18px 60px;
-
         display: block;
     }
 
-    .about_main {
+    .about .about_main {
         width: 100%;
-
         display: flex;
         flex-direction: column;
-
-        gap: 25px;
+        gap: 0;
     }
 
 
-    .about .image {
+    .about .about_main .image {
         width: 100%;
         height: 330px;
-
-        display: flex;
-        justify-content: center;
+        display: block;
+        margin-bottom: 70px;
     }
 
-    .about .image img {
+    .about .about_main .image img {
         width: 100%;
         height: 330px;
-
         object-fit: cover;
+        display: block;
     }
 
 
-
-    .about_text {
+    .about .about_main .about_text {
         width: 100%;
         text-align: center;
+        position: relative;
+        z-index: 5;
+        margin-top: 0;
     }
 
-    .about_text h1 {
+    .about .about_main .about_text h1 {
         font-size: 34px;
         line-height: 1.1;
-
         margin-bottom: 10px;
     }
 
-    .about_text h2 {
+    .about .about_main .about_text h2 {
         font-size: 19px;
         line-height: 1.3;
-
         margin-bottom: 15px;
     }
 
-
-
-    .about_text p {
+    .about .about_main .about_text p {
         width: 100%;
         max-width: 370px;
-
         margin: 0 auto;
-
         font-size: 14px;
         line-height: 23px;
-
         text-align: center;
     }
 
-
-
-    .about_features {
-        width: 100%;
-
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-        gap: 18px;
-
-        margin-top: 30px;
-    }
-
-    .about_feature {
-        width: 100%;
-        text-align: center;
-    }
-
-    .about_feature i {
-        font-size: 28px;
-    }
-
-    .about_feature h3 {
-        font-size: 14px;
-        line-height: 1.3;
-        margin-top: 8px;
-    }
-
-    .about_feature p {
-        width: 100%;
-        font-size: 12px;
-        line-height: 19px;
-        margin-top: 5px;
-    }
-
-
-
-    .about_btn {
-        font-size: 13px;
-        margin-top: 20px;
-    }
 
 
 
@@ -1342,7 +1203,6 @@ section nav .icon .cart-link i {
         margin-left: auto;
         margin-right: auto;
     }
-
 }
 
 
@@ -1367,7 +1227,7 @@ section nav .icon .cart-link i {
     }
 
 
-    /* CAFE SHOP IMAGE */
+
 
     .about .image {
         height: 300px;
