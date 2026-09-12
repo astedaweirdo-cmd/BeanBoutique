@@ -1088,6 +1088,17 @@ section nav .icon .cart-link i {
         text-align: center;
     }
 
+    h1 {
+        font-size: 32px;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+}
+
 
     .men_text p {
         width: 100%;
